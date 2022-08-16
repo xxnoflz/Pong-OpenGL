@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source Files\Pong">
+      <UniqueIdentifier>{f82db489-f220-4db7-bafa-924bf57f9ec2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pong\Vendor">
+      <UniqueIdentifier>{d89016bd-90d9-4dbd-b58e-b33b5b4bbdf2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pong\Utilities">
+      <UniqueIdentifier>{c1e5a286-6f79-40bf-9aa4-6cf628b37624}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pong\Render">
+      <UniqueIdentifier>{785ef9e7-d846-4690-98bf-b296c6139aa8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pong\Objects">
+      <UniqueIdentifier>{aa73f7f1-b3bc-44ae-afba-2090bfa93bec}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Pong\Shaders">
+      <UniqueIdentifier>{4c812f35-b23c-4b4e-b0e2-81faffeec47c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="source\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\utilities\BallObject.cpp">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\utilities\GameObject.cpp">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\utilities\Player.cpp">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\utilities\Renderer.cpp">
+      <Filter>Source Files\Pong\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\utilities\TextRenderer.cpp">
+      <Filter>Source Files\Pong\Render</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\utilities\ResourceManager.cpp">
+      <Filter>Source Files\Pong\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\utilities\Shader.cpp">
+      <Filter>Source Files\Pong\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\utilities\Texture.cpp">
+      <Filter>Source Files\Pong\Utilities</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\vendor\glad.c">
+      <Filter>Source Files\Pong\Vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\vendor\stb_image.cpp">
+      <Filter>Source Files\Pong\Vendor</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\Pong.cpp">
+      <Filter>Source Files\Pong</Filter>
+    </ClCompile>
+    <ClCompile Include="source\Pong\utilities\LineRenderer.cpp">
+      <Filter>Source Files\Pong\Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="source\Pong\utilities\BallObject.h">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\utilities\GameObject.h">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\utilities\Player.h">
+      <Filter>Source Files\Pong\Objects</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\utilities\Renderer.h">
+      <Filter>Source Files\Pong\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\utilities\TextRenderer.h">
+      <Filter>Source Files\Pong\Render</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\utilities\ResourceManager.h">
+      <Filter>Source Files\Pong\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\utilities\Shader.h">
+      <Filter>Source Files\Pong\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\utilities\Texture.h">
+      <Filter>Source Files\Pong\Utilities</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\vendor\stb_image.h">
+      <Filter>Source Files\Pong\Vendor</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\Pong.h">
+      <Filter>Source Files\Pong</Filter>
+    </ClInclude>
+    <ClInclude Include="source\Pong\utilities\LineRenderer.h">
+      <Filter>Source Files\Pong\Render</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="source\Pong\Shaders\text_render.vert">
+      <Filter>Source Files\Pong\Shaders</Filter>
+    </None>
+    <None Include="source\Pong\Shaders\line_render.frag">
+      <Filter>Source Files\Pong\Shaders</Filter>
+    </None>
+    <None Include="source\Pong\Shaders\line_render.vert">
+      <Filter>Source Files\Pong\Shaders</Filter>
+    </None>
+    <None Include="source\Pong\Shaders\object_render.frag">
+      <Filter>Source Files\Pong\Shaders</Filter>
+    </None>
+    <None Include="source\Pong\Shaders\object_render.vert">
+      <Filter>Source Files\Pong\Shaders</Filter>
+    </None>
+    <None Include="source\Pong\Shaders\text_render.frag">
+      <Filter>Source Files\Pong\Shaders</Filter>
+    </None>
+  </ItemGroup>
+</Project>
